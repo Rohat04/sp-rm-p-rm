@@ -1,0 +1,255 @@
+body {
+  display: flex;
+  background: linear-gradient(rgb(255, 255, 255), rgb(126, 161, 196)),
+    rgb(126, 161, 196);
+  flex-direction: column;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0px;
+}
+
+.högst {
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: solid 5px;
+  background-color: rgb(0, 119, 182);
+  margin: 10px;
+}
+
+.nav1 {
+  display: flex;
+  justify-content: left;
+  gap: 0px;
+  font-size: 21px;
+  background-color: rgb(0, 119, 182);
+  font-style: bold;
+}
+
+.icons {
+  margin: 20px;
+}
+
+.rubrik {
+  font-size: 50px;
+  font-style: bold;
+  font-weight: 700;
+  margin: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.rubrikram {
+  border-bottom: solid 5px;
+  background: linear-gradient(rgb(255, 255, 255), rgb(126, 161, 196)),
+    rgb(126, 161, 196);
+}
+
+.slogan {
+  font-size: 21px;
+  color: rgb(0, 0, 0);
+  margin: 20px;
+}
+
+.pfinfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.infolist {
+  margin-left: 10px;
+}
+
+.profiler {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* Egentligen behöver du inte skrive "flex-direction: row" eftersom det är defautl*/
+  margin-top: 10px;
+}
+
+.profil {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border: rgb(0, 0, 0) solid 5px;
+  background: rgb(0, 150, 199);
+}
+
+nav {
+  display: flex;
+  border-bottom: solid 5px black;
+  background-color: rgb(0, 119, 182);
+  justify-content: left;
+  gap: 20px;
+  font-size: 21px;
+  font-style: bold;
+}
+
+nav a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-style: bold;
+}
+
+nav a:hover {
+  background-color: rgba(46, 110, 228, 0);
+  text-decoration: underline;
+}
+
+.startbilder {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10px;
+  border: solid rgba(255, 255, 255, 0);
+}
+
+.kategori {
+  display: flex;
+  flex-direction: column;
+  flex-flow: wrap;
+  margin: 10px;
+}
+
+.kategoriimg {
+  display: flex;
+  flex-flow: wrap;
+  border: 5px rgb(0, 0, 0) solid;
+}
+
+form {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 15px;
+}
+
+.kategoriflexbox {
+  width: 45%;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.nav-bottom {
+  display: flex;
+  border-top: solid 5px black;
+  background-color: rgb(24, 67, 90);
+  justify-content: left;
+  gap: 20px;
+}
+
+.kategoriimg:hover {
+  transform: translateY(-5px);
+}
+
+.termsofservice {
+  margin: 40px;
+}
+
+.läsmerprofil {
+  margin: 20px;
+}
+
+.läsmerprofilinfo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.omoss {
+  margin-top: 40px;
+  margin-bottom: 200px;
+  margin-left: 40px;
+}
+
+.läsmer2 {
+}
+
+.donationalternativ {
+  margin: 20px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bokatid {
+  margin: 20px;
+  gap: 60px;
+}
+
+.std {
+  margin: 200px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  color: rgb(255, 255, 255);
+  margin-left: 10px;
+  margin-top: 10px;
+  height: 0px;
+}
+
+.nav-bottom-text {
+  display: flex;
+  justify-content: left;
+  margin-bottom: 50px;
+}
+
+.nav-bottom {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.frågor {
+  margin-bottom: 200px;
+  margin-left: 20px;
+}
+
+.vanligafrågor {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  margin-left: 250px;
+  margin-right: 250px;
+  border: solid 5px rgb(0, 0, 0);
+}
+
+.qna {
+  font-size: 35px;
+  font-style: bold;
+  margin: 20px;
+  font-weight: bolder;
+}
+
+.frågan {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.svaret {
+  font-size: 20px;
+  margin: 20px;
+}
+
+.ads{
+  display: flex;
+  flex-direction: row;
+  justify-self: right;
+  margin-left: 30px;
+  margin-right: 0;
+}
+
+.adsrussian{
+  display: flex;
+  flex-direction: row;
+  justify-self: start;
+  margin-left: 30px;
+  margin-right: 0;
+}
